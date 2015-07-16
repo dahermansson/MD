@@ -1,0 +1,12 @@
+﻿@model MD.Models.Page
+
+@foreach (var content in Model.SortedContents)
+{
+    if(!string.IsNullOrEmpty(content.Heading))
+    {
+        <a href="@content.Url"><h1>@content.Heading</h1></a>
+    }
+    @Html.Raw(content.Markdown)
+@content.Date.ToShortDateString()
+<hr />
+}

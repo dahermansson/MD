@@ -1,0 +1,10 @@
+﻿@model MD.Models.Page
+
+@if(!string.IsNullOrEmpty(Model.Heading))
+{
+    <h1>@Model.Heading</h1>
+}
+
+@Html.Raw(Model.Contents.First().Markdown)
+
+
