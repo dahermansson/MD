@@ -27,6 +27,8 @@ namespace MD.Models
             {
                 DirectoryInfo dirInfo = new DirectoryInfo(d);
                 bool blog = dirInfo.Name.StartsWith("__");
+                if (dirInfo.Name.EndsWith("__")) //Ignorera bildmappar
+                    continue;
                 string dirPath = Path.Combine(folder,dirInfo.Name);
                 item.Items.Add(new MenuItem(dirInfo.Name.TrimStart('_'), !blog));
                 if(!blog)

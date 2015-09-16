@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using System.Web;
 
 namespace MD.Models
 {
@@ -30,7 +31,7 @@ namespace MD.Models
 
         private Page GetSingelPage()
         {
-            var filePath = SiteRootPath + _url.Replace('/', Path.DirectorySeparatorChar);
+            var filePath = SiteRootPath + HttpUtility.UrlDecode(_url).Replace('/', Path.DirectorySeparatorChar);
             if (!File.Exists(filePath + ".md"))
             {
                 string tempPath = string.Empty;
