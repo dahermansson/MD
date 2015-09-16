@@ -20,4 +20,4 @@
 	</div>
 </div>
 
-Index.md visas som default i mappar, likt denna sida. 
+Index.md visas som default i mappar, likt denna sida.

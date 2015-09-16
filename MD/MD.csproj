@@ -135,6 +135,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Index.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Properties\PublishProfiles\rubiks.pubxml" />
@@ -154,7 +155,6 @@
     <Content Include="site_root\Images__\B.png" />
     <Content Include="site_root\Images__\B2.png" />
     <Content Include="site_root\Images__\Bc.png" />
-    <Content Include="site_root\Images__\bild.jpg" />
     <Content Include="site_root\Images__\COLL.png" />
     <Content Include="site_root\Images__\COLL0E.png" />
     <Content Include="site_root\Images__\COLL2E.png" />

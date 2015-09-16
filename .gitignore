@@ -123,6 +123,7 @@ publish/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
+Properties/PublishProfiles/
 ## TODO: Comment the next line if you want to checkin your
 ## web deploy settings but do note that will include unencrypted
 ## passwords
@@ -160,6 +161,7 @@ ClientBin/
 *.publishsettings
 node_modules/
 bower_components/
+MD/site_root/
 
 # RIA/Silverlight projects
 Generated_Code/
