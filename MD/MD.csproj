@@ -152,43 +152,6 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="site_root\Images__\B.png" />
-    <Content Include="site_root\Images__\B2.png" />
-    <Content Include="site_root\Images__\Bc.png" />
-    <Content Include="site_root\Images__\COLL.png" />
-    <Content Include="site_root\Images__\COLL0E.png" />
-    <Content Include="site_root\Images__\COLL2E.png" />
-    <Content Include="site_root\Images__\CPLL.png" />
-    <Content Include="site_root\Images__\Cross.png" />
-    <Content Include="site_root\Images__\D.png" />
-    <Content Include="site_root\Images__\D2.png" />
-    <Content Include="site_root\Images__\Dc.png" />
-    <Content Include="site_root\Images__\EOLL.png" />
-    <Content Include="site_root\Images__\EPLL.png" />
-    <Content Include="site_root\Images__\F.png" />
-    <Content Include="site_root\Images__\F2.png" />
-    <Content Include="site_root\Images__\F2L.png" />
-    <Content Include="site_root\Images__\Fc.png" />
-    <Content Include="site_root\Images__\FcUcF.png" />
-    <Content Include="site_root\Images__\fl.png" />
-    <Content Include="site_root\Images__\FRURcUcFc.png" />
-    <Content Include="site_root\Images__\FURUcRcFc.png" />
-    <Content Include="site_root\Images__\L.png" />
-    <Content Include="site_root\Images__\L2.png" />
-    <Content Include="site_root\Images__\Lc.png" />
-    <Content Include="site_root\Images__\R.png" />
-    <Content Include="site_root\Images__\R2.png" />
-    <Content Include="site_root\Images__\Rc.png" />
-    <Content Include="site_root\Images__\RcFRcB2RFcRcB2R2.png" />
-    <Content Include="site_root\Images__\RcUcRcUcRcURUR.png" />
-    <Content Include="site_root\Images__\RU2RcUcRURc.png" />
-    <Content Include="site_root\Images__\RUcRURURUcRcUcR2.png" />
-    <Content Include="site_root\Images__\RURc.png" />
-    <Content Include="site_root\Images__\RURcURU2Rc.png" />
-    <Content Include="site_root\Images__\RURURUcRcUcRc.png" />
-    <Content Include="site_root\Images__\U.png" />
-    <Content Include="site_root\Images__\U2.png" />
-    <Content Include="site_root\Images__\Uc.png" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -210,10 +173,10 @@
     <Content Include="Views\Home\Blog.cshtml" />
     <Content Include="site_root\__Blogg\2015-02-02_Post1.md" />
     <Content Include="site_root\__Blogg\2015-02-03_Post2.md" />
-    <None Include="site_root\Lösning.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="site_root\Images__\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
